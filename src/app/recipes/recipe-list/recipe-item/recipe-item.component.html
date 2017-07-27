@@ -1,5 +1,6 @@
 <a href="#"
-        class="list-group-item clearfix">
+  class="list-group-item clearfix"
+  (click)="onSelected()">
        <div class="pull-left">
            <h4 class="list-group-item-heading">{{ recipeC.name }}</h4>
            <p class="list-group-item-text">{{ recipeC.description }}</p>
@@ -10,4 +11,4 @@
               class="img-responsive" style="max-height: 50px;">
               <!--  we can write src= "{{ recipe.imagePath }}" -->
        </span>
-     </a>
+</a>
