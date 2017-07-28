@@ -6,7 +6,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class HeaderComponent {
 @Output() featherSelected = new EventEmitter<string>();
-  onSelect(feature: string){
+  onSelect(feature: string) {
       this.featherSelected.emit(feature);
   }
 }
